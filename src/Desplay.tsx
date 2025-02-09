@@ -39,7 +39,7 @@ function Desplay() {
         if (vedio) {
             setTimeout(() => {
                 navigate('/vedio');
-            }, 2000);
+            }, 100);
         }
     }, [vedio]);
   return (
