@@ -37,9 +37,7 @@ function Desplay() {
     }, []);
     useEffect(() => {
         if (vedio) {
-            setTimeout(() => {
                 navigate('/vedio');
-            }, 100);
         }
     }, [vedio]);
   return (
